@@ -28,32 +28,32 @@
     padding: 80px 0;
     background: #ff7467;
     }
-    
+        
     .newsletter .content {
-    max-width: 650px;
-    margin: 0 auto;
-    text-align: center;
-    position: relative;
-    z-index: 2; }
-    .newsletter .content h2 {
-    color: #ffebe8;
-    margin-bottom: 40px; }
-    .newsletter .content .form-control {
-    height: 50px;
-    border-color: #ffffff;
-    border-radius:0;
-    }
-    .newsletter .content.form-control:focus {
-    box-shadow: none;
-    border: 2px solid #ffebe8;
-    }
-    .newsletter .content .btn {
-    min-height: 50px; 
-    border-radius:0;
-    background: #73e8e5;
-    color: #ffebe8;
-    font-weight:600;
-    }
+        max-width: 650px;
+        margin: 0 auto;
+        text-align: center;
+        position: relative;
+        z-index: 2; }
+        .newsletter .content h2 {
+        color: #ffebe8;
+        margin-bottom: 40px; }
+        .newsletter .content .form-control {
+        height: 50px;
+        border-color: #ffffff;
+        border-radius:0;
+        }
+        .newsletter .content.form-control:focus {
+        box-shadow: none;
+        border: 2px solid #ffebe8;
+        }
+        .newsletter .content .btn {
+        min-height: 50px; 
+        border-radius:0;
+        background: #73e8e5;
+        color: #ffebe8;
+        font-weight:600;
+        }
 
 footer {
     display: flex;  /* allows use of "justify-content" property */
@@ -102,9 +102,40 @@ h2 {
 }
 
 .card {
+    display: flex;
     padding: 25px;
+
 }
 
 .row {
     padding: 25px;
+}
+
+.btn.btn-primary {
+    background-color: #ff7467;
+    color: #ffebe8;
+    border: #ff7467;
+}
+
+h1 {
+    background-color: #ffebe8;
+    color: #73e8e5;
+}
+
+.btn-floating {
+    color: #ff7467;
+    background-color: #ffebe8;
+    padding: 20px;
+    align-items: center;
+}
+
+.title {
+    padding: 25px;
+    text-align: center;
+}
+
+.btn.btn-info {
+    color: #ffebe8;
+    background-color: #ff7467;
+    border: #ff7467;
 }
