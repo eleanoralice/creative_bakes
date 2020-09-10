@@ -99,21 +99,22 @@
   <!--Newsletter-->
   <section class="newsletter">
     <div class="container">
-    <div class="row">
-    <div class="col-sm-12">
+     <div class="row">
+      <div class="col-sm-12">
         <div class="content">
             <h2>Subscribe to our newsletter</h2>
-        <div class="input-group">
+          <form class="input-group">
              <input type="email" class="form-control" placeholder="Enter your email...">
              <span class="input-group-btn">
-             <button class="btn" type="submit">Subscribe now</button>
+             <button class="btn" type="submit" onclick = "myFunction()">Subscribe now</button>
              </span>
-              </div>
+          </form>
         </div>
-    </div>
-    </div>
+      </div>
+     </div>
     </div>
     </section>
+
     <!--Carousel two-->
     <div class="container my-4">
             <h1>Check out our favourite recipes...</h1> 
@@ -148,9 +149,8 @@
                       alt="Card image cap">
                     <div class="card-body">
                       <h4 class="card-title">Traditional Flapjack</h4>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
-                      <a class="btn btn-primary">Button</a>
+                      <p class="card-text">Delicious family favourite that is easy and quick to make for a mid-week treat!</p>
+                      <a class="btn btn-primary">Read Recipe</a>
                     </div>
                   </div>
                 </div>
@@ -161,9 +161,8 @@
                       alt="Card image cap">
                     <div class="card-body">
                       <h4 class="card-title">Red Velvet Cupcakes</h4>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
-                      <a class="btn btn-primary">Button</a>
+                      <p class="card-text">Party showstopper that never fails to impress! Who doesn't love red velevet?</p>
+                      <a class="btn btn-primary">Read Recipe</a>
                     </div>
                   </div>
                 </div>
@@ -174,9 +173,8 @@
                       alt="Card image cap">
                     <div class="card-body">
                       <h4 class="card-title">Fruit Tartelette</h4>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
-                      <a class="btn btn-primary">Button</a>
+                      <p class="card-text">Rustic fruit tratelettes made with blackberry and orange. Perfect for dinner parties!</p>
+                      <a class="btn btn-primary">Read Recipe</a>
                     </div>
                   </div>
                 </div>
@@ -195,9 +193,8 @@
                       alt="Card image cap">
                     <div class="card-body">
                       <h4 class="card-title">Pistachio Macarons</h4>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
-                      <a class="btn btn-primary">Button</a>
+                      <p class="card-text">Technically challenging French classic, perfect for gifts and special ocassions.</p>
+                      <a class="btn btn-primary">Read Recipe</a>
                     </div>
                   </div>
                 </div>
@@ -208,9 +205,8 @@
                       alt="Card image cap">
                     <div class="card-body">
                       <h4 class="card-title">Paris-Brest</h4>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
-                      <a class="btn btn-primary">Button</a>
+                      <p class="card-text">Sophisticated alternative to classic choux buns and éclairs, sure to be a favourite!</p>
+                      <a class="btn btn-primary">Read Recipe</a>
                     </div>
                   </div>
                 </div>
@@ -221,9 +217,8 @@
                       alt="Card image cap">
                     <div class="card-body">
                       <h4 class="card-title">Rye Sourdough</h4>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
-                      <a class="btn btn-primary">Button</a>
+                      <p class="card-text">Twist on the classic white sourdough with a deep, malty flavour. Perfect for a picinc!</p>
+                      <a class="btn btn-primary">Read Recipe</a>
                     </div>
                   </div>
                 </div>
@@ -258,6 +253,13 @@
           </a>
 
       </footer>
+
+      <script>
+        function myFunction() {
+                alert("Thank you for subscribing!");
+        document.forms[0].reset();
+        }
+      </script>
 
     </body>
 
