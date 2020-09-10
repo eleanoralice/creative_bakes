@@ -87,3 +87,24 @@ body {
     color: #ff7467;
     background-color: #ffebe8;
 }
+
+img {
+    max-width: 100%;
+}
+
+.col-md {
+    padding: 25px;
+}
+
+h2 {
+    background-color: #ff7467;
+    color: #ffebe8;
+}
+
+.card {
+    padding: 25px;
+}
+
+.row {
+    padding: 25px;
+}
